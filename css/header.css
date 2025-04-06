@@ -100,3 +100,89 @@
 .user-profile:hover::after {
     background-color: #f16565; 
 }
+
+/* profile dropdown */
+
+.user-profile:hover .profile-dropdown {
+    display: block;
+}
+
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 72px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 10px 10px;
+    padding: 25px 20px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.profile-dropdown strong {
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+    color: #282c3f;
+}
+
+.profile-dropdown p {
+    margin: 0;
+    font-size: 14px;
+    color: #282c3f;
+}
+
+.log-link {
+    width: 55%;
+}
+
+.login-btn  {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    margin: 13px 0;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    border-color: #f16565;
+}
+
+.login-btn span {
+    color: #ff3f6c;
+    font-weight: 600;
+}
+
+.profile-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.profile-dropdown ul li {
+    margin: 8px 0;
+    font-size: 14px;
+    cursor: pointer;
+    color: #282c3f;
+}
+
+.profile-dropdown ul li:hover {
+    color: #282c3f;
+    font-weight: 600; 
+}
+
+.profile-dropdown .new-badge {
+    margin: 0;
+    background-color: #ff3f6c;
+    color: white;
+    font-size: 12px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    transform: skew(-10deg);
+    display: inline-block;
+}
