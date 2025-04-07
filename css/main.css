@@ -1,0 +1,44 @@
+/* main */
+
+.section1 {
+    margin-top: 100px;
+}
+
+.banner {
+    padding: 0px 100px;
+}
+
+.banner-container {
+    width: 100%;
+    height: 200px; 
+}
+
+.banner-container img , .banner-container2 img , .bank-offer img , .off-code img , .explore-banner img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.banner-container2 {
+    width: 100%;
+    height: 344px;
+    display: flex;
+    gap: 0px;
+}
+
+.bank-offer {
+    width: 100%;
+    height: 133px;
+}
+
+.off-code {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    gap: 0px;
+}
+
+.explore-banner {
+    width: 100%;
+    height: 116px;
+}
