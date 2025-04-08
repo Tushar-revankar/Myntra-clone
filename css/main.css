@@ -13,7 +13,8 @@
     height: 200px; 
 }
 
-.banner-container img , .banner-container2 img , .bank-offer img , .off-code img , .explore-banner img {
+.banner-container img , .banner-container2 img , .bank-offer img , .off-code img , .explore-banner img , 
+.download-banner img {
     width: 100%;
     height: 100%; 
     object-fit: cover; 
@@ -41,4 +42,41 @@
 .explore-banner {
     width: 100%;
     height: 116px;
+}
+
+.download-banner {
+    width: 100%;
+    height: 239px;
+}
+
+/* product cards */
+
+.product-card {
+    padding: 0px 100px;
+}
+
+.card-container {
+    width: 100%;
+    height: 285px;
+    display: flex;
+    gap: 0px;
+}
+
+.card-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 285px;
+}
+
+.card-container:last-child img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
