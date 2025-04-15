@@ -52,6 +52,11 @@ myntra-clone/
 
 ## 📸 Screenshots
 
+### Homepage
 ![Homepage](images/screenshots/homepage.png)
+
+### Dropdown
 ![Dropdown](images/screenshots/dropdown.png)
+
+### User profile
 ![User profile](images/screenshots/profile.png)
